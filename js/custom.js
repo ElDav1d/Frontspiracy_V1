@@ -107,10 +107,10 @@ jQuery(document).ready(function($){
 function niceScrollInit() {
     $("html").niceScroll({
 	autohidemode: false,
-	cursorcolor: '#e04d47',
+	cursorcolor: '#E5A521',
 	zindex: 9999,
 	cursorwidth: 6,
-	cursorborder: "0px solid #e04d47",
+	cursorborder: "0px solid #E5A521",
 	background: "#000000",
 	scrollspeed: 60,
 	mousescrollstep: 40
