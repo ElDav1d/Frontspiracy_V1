@@ -1,3 +1,33 @@
+
+/****************************************************************/
+/*************** GENERAL ***************/
+/****************************************************************/
+
 body {
+	background-color: #FDF5EA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", Helvetica, Arial, Heveltica Neue, sans-serif !important;
+
+}
+
+/****************************************************************/
+/*************** HEADER ***************/
+/****************************************************************/
+
+.site-header {
+
+	background-color: #333333;
+	border-bottom: 2px solid #E5A521;
+}
+
+.main-navigation li a {
 	
+	color: #FDF5EA
+}
+
+.main-navigation li a:hover {
+
+	color: #E5A521;
 }
