@@ -12,6 +12,40 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+h2 {
+	font-size: 5rem;
+	font-weight: 300;
+	color: #333333;
+}
+
+p {
+	font-family:"Roboto Slab", Georgia,Times,Times New Roman,serif;
+	font-size: 1.6rem;
+	line-height: 2.7rem;
+	color:#333333;
+	word-spacing: 0.025rem;
+	letter-spacing: 0.025rem;
+
+}
+
+a {
+	font-family: "Open Sans", Helvetica, Arial, Heveltica Neue, sans-serif !important;
+	color: #E5A521;
+}
+
+a:hover {
+	color: #E5A521;
+	font-weight: 700;
+
+}
+
+.feature-icon i {
+	color: #E5A521;
+}
+
+.section-title {
+	border-bottom: 1px solid #E5A521;
+}
 /****************************************************************/
 /*************** HEADER ***************/
 /****************************************************************/
@@ -25,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-navigation li a {
 	
 	color: #FDF5EA;
+	font-size: 2rem;
 }
 
 .main-navigation li a:hover {
@@ -102,4 +137,5 @@ h1, h2, h3, h4, h5, h6 {
 
 	border: 2px solid  #E5A521;
 	color:  #E5A521;
+	font-weight: 400;
 	}
