@@ -33,6 +33,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /****************************************************************/
+/*************** OFF CANVAS ***************/
+/****************************************************************/
+
+
+.mobile-menu-trigger {
+	background-color: #FDF5EA;
+}
+
+.mobile-menu-trigger i{
+	color: #E5A521;
+}
+
+.mobile-nav {
+
+	background-color: #333333;
+
+}
+
+.mobile-nav ul li a {
+
+	color: #FDF5EA;
+	border: none;
+}
+
+.mobile-nav ul li a:hover{
+
+	color: #333333;
+	background-color: #E5A521;
+}
+
+.mobile-nav ul {
+	border: none;
+}
+
+
+/****************************************************************/
 /*************** SLIDER ***************/
 /****************************************************************/
 
