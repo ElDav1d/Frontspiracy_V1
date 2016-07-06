@@ -29,6 +29,11 @@ h2 {
 	color: #333333;
 }
 
+h6 {
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
 p {
 	font-family:"Roboto Slab", Georgia,Times,Times New Roman,serif;
 	font-size: 1.6rem;
@@ -61,6 +66,7 @@ a:hover {
 hr {
 	border-top: 1px solid #E5A521;
 }
+
 /****************************************************************/
 /*************** HEADER ***************/
 /****************************************************************/
@@ -185,4 +191,44 @@ hr {
 
 .skillbar .skillbar-percent:after {
 	border-color:#8A8483 transparent transparent ;
+}
+
+/****************************************************************/
+/*************** PORTFOLIO ***************/
+/****************************************************************/
+
+.folio-filters li a {
+
+	border-radius: 0;
+	background: #8A8483;
+	color: #FDF5EA;
+}
+
+.folio-filters li a:hover {
+
+	font-weight: 400;
+	background:  #E5A521;
+	color: #FDF5EA;
+}
+
+.folio-filters li.current a {
+	background: #333333;
+	color: #E5A521;
+}
+
+.folio-desc h4 {
+	font-weight: 400;
+	font-size: 1.8rem;
+	color: #333333;
+}
+
+.folio-desc h4 a:hover {
+	
+	color: #E5A521;
+}
+
+.folio-desc h6 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-transform: uppercase;
 }
