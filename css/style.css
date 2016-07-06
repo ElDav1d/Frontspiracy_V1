@@ -46,6 +46,7 @@ a:hover {
 .section-title {
 	border-bottom: 1px solid #E5A521;
 }
+
 /****************************************************************/
 /*************** HEADER ***************/
 /****************************************************************/
@@ -139,3 +140,34 @@ a:hover {
 	color:  #E5A521;
 	font-weight: 400;
 	}
+
+
+/****************************************************************/
+/*************** SKILLBAR ***************/
+/****************************************************************/
+
+.skillbar {
+	background-color: #8A8483;
+}
+
+.skillbar .skillbar-bar {
+
+	background-color: #E5A521;
+}
+
+.skillbar .skillbar-title  {
+	color: #333333;
+	font-weight: 400;
+}
+
+.skillbar .skillbar-percent {
+
+	color: #FDF5EA;
+	background: #8A8483;
+	border: 4px solid #8A8483;
+	border-radius: 0px;
+}
+
+.skillbar .skillbar-percent:after {
+	border-color:#8A8483 transparent transparent ;
+}
