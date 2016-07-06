@@ -24,10 +24,46 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-navigation li a {
 	
-	color: #FDF5EA
+	color: #FDF5EA;
 }
 
 .main-navigation li a:hover {
 
 	color: #E5A521;
 }
+
+/****************************************************************/
+/*************** SLIDER ***************/
+/****************************************************************/
+
+
+
+.slide-caption h2 {
+	color: #FDF5EA;
+	text-transform: none;
+	font-weight: 600;
+
+
+}
+
+.slide-navigation .slide-prev i, .slide-navigation .slide-next i{ 
+	color: #FDF5EA;
+}
+
+
+.slide-navigation .slide-prev i:hover, .slide-navigation .slide-next i:hover{
+	color: #E5A521;
+}
+
+.slide-button {
+
+	font-family: "Open Sans", Helvetica, Arial, Heveltica Neue, sans-serif !important;
+	border: 2px solid  #FDF5EA;
+	color: #FDF5EA;
+}
+
+.slide-button:hover {
+
+	border: 2px solid  #E5A521;
+	color:  #E5A521;
+	}
