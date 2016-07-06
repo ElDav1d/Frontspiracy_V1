@@ -194,7 +194,7 @@ hr {
 }
 
 /****************************************************************/
-/*************** PORTFOLIO ***************/
+/*************** PORTFOLIO and TEAM ***************/
 /****************************************************************/
 
 .folio-filters li a {
@@ -231,4 +231,26 @@ hr {
 	font-size: 1.5rem;
 	font-weight: 300;
 	text-transform: uppercase;
+}
+
+
+.team-overlay, .folio-overlay {
+
+	background: rgba(229, 165, 33, 0.4);
+	opacity: 0;
+}
+
+.folio-overlay a {
+	background-color: #E5A521;
+	color:  #FDF5EA;
+}
+.folio-overlay a i {
+	color:  #FDF5EA;
+
+}
+
+
+.folio-overlay:hover a:hover {
+	background: #8A8483 ;
+
 }
