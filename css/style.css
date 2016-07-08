@@ -32,6 +32,7 @@ h2 {
 h6 {
 	font-size: 1.2rem;
 	font-weight: 300;
+	
 }
 
 p {
@@ -241,7 +242,7 @@ section#hacemos {
 
 .team-overlay, .folio-overlay {
 
-	background: rgba(229, 165, 33, 0.4);
+	background: rgba(229, 165, 33, 0.2);
 	opacity: 0;
 }
 
@@ -260,8 +261,67 @@ section#hacemos {
 
 }
 
+.team-info h4 {
+
+	font-weight: 500;
+	font-size: 2rem;
+	color: #333333;
+
+}
+
+.team-info h6 {
+
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-bottom: 3rem;
+}
+
+.team-overlay .team-desc p {
+
+	color:  #FDF5EA;
+
+}
+
+.team-overlay .team-social-icons li a i{
+
+
+}
+
+.team-overlay .team-social-icons li a {
+
+	background: #E5A521;
+}	
+
+ul.team-social-icons li a i.fa {
+
+	color:  #FDF5EA;
+	
+}
+
+/****************************************************************/
+/*************** COLABORADORES ***************/
+/****************************************************************/
+
 #colaboradores {
   background: url('../images/large_bg_image.jpg?1395266600') 50% 0 repeat-y fixed;
+}
+
+.section-overlay h2 {
+    color:  #FDF5EA;
+    border-color: #E5A521;
+}
+
+#colaboradores .team-info h4 {
+	
+	color: #E5A521;
+}
+
+#colaboradores .team-info h6 {
+
+
+	color:  #FDF5EA;
+	
 }
 
 /****************************************************************/
@@ -281,3 +341,4 @@ section#hacemos {
 	background: #8A8483;
 	color: #8A8483 ;
 	margin-bottom: 0;
+}
