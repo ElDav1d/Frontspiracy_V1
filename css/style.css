@@ -261,7 +261,8 @@ section#hacemos {
 
 }
 
-.team-info h4 {
+.team-info h4,
+h4.align-left{
 
 	font-weight: 500;
 	font-size: 2rem;
@@ -269,12 +270,36 @@ section#hacemos {
 
 }
 
-.team-info h6 {
+.team-info h6, 
+h6.align-left{
 
 	text-transform: uppercase;
 	font-size: 1.5rem;
 	font-weight: 300;
 	margin-bottom: 3rem;
+}
+
+h4.align-left {
+	margin-top: 0px;
+}
+
+h6.align-left {
+	margin-bottom: 1rem;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px){
+
+	h4.align-left {
+		padding-top: 30px;
+		margin: 0 0 15px 0;
+		text-align: center;
+	}
+
+	h6.align-left{
+		text-align: center;
+	}
+
+
 }
 
 .team-overlay .team-desc p {
@@ -297,6 +322,10 @@ ul.team-social-icons li a i.fa {
 
 	color:  #FDF5EA;
 	
+}
+
+p.team-copy {
+	margin-bottom: 5rem;
 }
 
 /****************************************************************/
