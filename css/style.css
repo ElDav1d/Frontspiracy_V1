@@ -67,6 +67,11 @@ hr {
 	border-top: 1px solid #E5A521;
 }
 
+section#hacemos {
+
+	margin-top: 100px;
+}
+
 /****************************************************************/
 /*************** HEADER ***************/
 /****************************************************************/
@@ -253,6 +258,10 @@ hr {
 .folio-overlay:hover a:hover {
 	background: #8A8483 ;
 
+}
+
+#colaboradores {
+  background: url('../images/large_bg_image.jpg?1395266600') 50% 0 repeat-y fixed;
 }
 
 /****************************************************************/
