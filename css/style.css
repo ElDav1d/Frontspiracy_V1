@@ -145,12 +145,14 @@ section#hacemos {
 
 	color: #FDF5EA;
 	border: none;
+	text-transform: uppercase;
 }
 
 .mobile-nav ul li a:hover{
 
 	color: #333333;
 	background-color: #E5A521;
+	font-weight: 400;
 }
 
 .mobile-nav ul {
