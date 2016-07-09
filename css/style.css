@@ -443,7 +443,7 @@ button.main-button:hover {
 	color: #8A8483 ;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 768px){
+@media only screen and (min-width : 320px) and (max-width : 980px){
 
 	.contact-info h4 {
 
