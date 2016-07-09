@@ -365,6 +365,11 @@ p.team-copy {
 		padding: 0 100px;
 	}
 
+	div.team-overlay.nosotros ul.team-social-icons {
+
+		width: 54%;
+	}
+
 }
 
 @media only screen and (min-width : 569px) and (max-width : 767px){
@@ -377,6 +382,10 @@ p.team-copy {
 		padding: 0 150px;
 	}
 
+	div.team-overlay.nosotros ul.team-social-icons {
+
+		width: 54%;
+	}
 }
 /****************************************************************/
 /*************** COLABORADORES ***************/
