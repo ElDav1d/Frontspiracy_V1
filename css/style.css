@@ -277,7 +277,18 @@ section#hacemos {
 
 	background: rgba(229, 165, 33, 0.2);
 	opacity: 0;
+	cursor: hand;
 }
+
+@media screen\0 { 
+
+	.team-overlay, .folio-overlay {
+		cursor: pointer;
+	}
+
+
+}
+
 
 .folio-overlay a {
 	background-color: #E5A521;
