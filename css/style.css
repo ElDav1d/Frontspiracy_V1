@@ -355,6 +355,29 @@ p.team-copy {
 	margin-bottom: 5rem;
 }
 
+@media only screen and (min-width : 480px) and (max-width : 568px){
+
+	div.team-thumb.founding-member {
+		padding-right: 200px;
+	}
+
+	div.team-thumb.partner {
+		padding: 0 100px;
+	}
+
+}
+
+@media only screen and (min-width : 569px) and (max-width : 767px){
+
+	div.team-thumb.founding-member {
+		padding-right: 300px;
+	}
+
+	div.team-thumb.partner {
+		padding: 0 150px;
+	}
+
+}
 /****************************************************************/
 /*************** COLABORADORES ***************/
 /****************************************************************/
