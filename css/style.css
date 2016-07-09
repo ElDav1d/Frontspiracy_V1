@@ -97,8 +97,17 @@ section#hacemos {
 
 .main-navigation li a {
 	
-	color: #FDF5EA;
-	font-size: 2rem;
+		color: #FDF5EA;
+		font-size: 2rem;
+	}
+
+@media only screen and(max-width : 1024px){
+
+	.main-navigation li a {
+	
+		font-size: 1.8rem;
+	}
+
 }
 
 .main-navigation li a:hover {
