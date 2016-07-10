@@ -380,6 +380,11 @@ p.team-copy {
 	margin-bottom: 5rem;
 }
 
+/*
+article {
+	max-height: 6rem;
+}*/
+
 @media only screen and (min-width : 480px) and (max-width : 568px){
 
 	div.team-thumb.founding-member {
