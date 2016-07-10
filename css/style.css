@@ -465,7 +465,7 @@ p.team-copy {
 
 
 /****************************************************************/
-/*************** FORM ***************/
+/*************** FORMULARIO ***************/
 /****************************************************************/
 
 input[type="text"],
@@ -502,6 +502,7 @@ label {
 
 .main-button {
 	background: #E5A521;
+	padding: 10px 25px 9px 25px;
 }
 
 
@@ -547,6 +548,27 @@ button.main-button:hover {
 	margin-bottom: 30px;
 }
 
+input#anti-spam.form-input {
+	width: 77%;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 1024px){
+
+	input#anti-spam.form-input {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 667px){
+
+	
+
+	button#enviar.main-button.pull-right {
+		float: none !important;
+	} 
+}
 
 /****************************************************************/
 /*************** FOOTER ***************/
