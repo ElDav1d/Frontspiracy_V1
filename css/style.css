@@ -171,6 +171,10 @@ section#hacemos {
 	border: none;
 }
 
+.mobile-menu-close span{
+	font-size: 1.3rem;
+}
+
 
 /****************************************************************/
 /*************** SLIDER ***************/
