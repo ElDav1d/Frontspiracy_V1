@@ -412,6 +412,33 @@ p.team-copy {
 		width: 54%;
 	}
 }
+
+
+/****************************************************************/
+/*************** PORTFOLIO SLIDES ***************/
+/****************************************************************/
+
+.mfp-arrow-right::after, .mfp-arrow-right .mfp-a {
+
+   border-left: 17px solid #FDF5EA;
+}
+
+.mfp-arrow-left::after, .mfp-arrow-left .mfp-a {
+
+	border-right: 17px solid #FDF5EA;
+}
+
+.mfp-arrow-right::before, .mfp-arrow-right .mfp-a {
+
+   border-left: none;
+}
+
+.mfp-arrow-left::before, .mfp-arrow-left .mfp-a {
+
+	border-right: none;
+}
+
+
 /****************************************************************/
 /*************** COLABORADORES ***************/
 /****************************************************************/
@@ -435,6 +462,7 @@ p.team-copy {
 	color:  #FDF5EA;
 	
 }
+
 
 /****************************************************************/
 /*************** FORM ***************/
