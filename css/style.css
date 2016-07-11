@@ -254,6 +254,16 @@ section#hacemos {
 /*************** PORTFOLIO and TEAM ***************/
 /****************************************************************/
 
+.gallery {
+  position: relative;
+  overflow: hidden;
+}
+.gallery img {
+  max-width: 100%;
+}
+
+
+
 .folio-filters li a {
 
 	border-radius: 0;
