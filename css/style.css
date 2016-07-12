@@ -113,13 +113,14 @@ section#hacemos {
 	}
 }
 
+
 .main-navigation li a {
 	
 		color: #FDF5EA;
 		font-size: 2rem;
-	}
+}
 
-@media only screen and(max-width : 1024px){
+@media only screen and (max-width : 1024px){
 
 	.main-navigation li a {
 	
@@ -127,6 +128,8 @@ section#hacemos {
 	}
 
 }
+
+
 
 .main-navigation li a:hover {
 
@@ -254,6 +257,46 @@ section#hacemos {
 /*************** PORTFOLIO and TEAM ***************/
 /****************************************************************/
 
+.mfp-content {
+
+	top: 10%;
+}
+
+img.mfp-img {
+	max-height: 300px !important;
+	width: auto;
+}
+
+
+@media only screen and (min-width : 640px) {
+.mfp-content {
+
+	top: 8%;
+}
+
+img.mfp-img {
+	max-height: 340px !important;
+	width: auto;
+}
+}
+
+@media only screen and (min-width : 768px) {
+
+
+.mfp-content {
+
+	top: 7%;
+}
+
+img.mfp-img {
+	max-height: 700px !important;
+	width: auto;
+}
+
+}
+
+
+
 .gallery {
   position: relative;
   overflow: hidden;
@@ -322,14 +365,18 @@ section#hacemos {
 	background-color: #E5A521;
 	color:  #FDF5EA;
 }
+
 .folio-overlay a i {
 	color:  #FDF5EA;
 
 }
 
+@media only screen and (min-width : 768px) and (max-width : 980px) {
 
-.folio-overlay:hover a:hover {
-	background: #8A8483 ;
+.folio-overlay{
+
+	width: 78% !important;
+}
 
 }
 
