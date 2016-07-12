@@ -207,13 +207,32 @@ niceScrollInit();
 				}
 		
 		});
-		
+
 		$('.gallery').each(function() { // the containers for all your galleries
 		    $(this).magnificPopup({
 		        delegate: 'a', // the selector for gallery item
 		        type: 'image',
 		        gallery: {
 		          enabled:true
+		        },
+		        options: {
+		        	markup: '<div class="mfp-figure">'+
+		        				'<div class="mfp-close"></div>'+
+		        				'<figure>'+
+		        					'<div class="mfp-img"></div>'+
+		        					'<figcaption>'+
+		        						'<div class="mfp-bottom-bar">'+
+		        							'<div class="mfp-title"></div>'+
+		        							'<div class="mfp-counter"></div>'+
+		        						'</div>'+
+		        					'</figcaption>'+
+		        				'</figure>'+
+		        			'</div>',
+		        	cursor: 'mfp-zoom-out-cur',
+		        	titleSrc: 'title', 
+		        	verticalFit: true,
+		        	tError: '<a href="%url%">The image</a> could not be loaded.'
+		        	
 		        }
 		    });
 		});
