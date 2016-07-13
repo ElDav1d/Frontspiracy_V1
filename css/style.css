@@ -450,10 +450,17 @@ p.team-copy {
     width: 100%;
 }
 
+.social-icons a {
+	line-height: 37px;
+}
+
 .social-icons .team-social-icons li a {
 
 	background: #E5A521;
-	padding: 7px 11px 7px 10px;
+	display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
 }	
 
 ul.social-icons li a i.fa {
@@ -462,6 +469,9 @@ ul.social-icons li a i.fa {
 	
 }
 
+.social-icons .team-social-icons li a:hover {
+	background: #5c5c5c;
+}
 
 /*
 article {
