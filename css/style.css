@@ -440,6 +440,29 @@ ul.team-social-icons li a i.fa {
 p.team-copy {
 	margin-bottom: 5rem;
 }
+
+
+
+.social-icons {
+	position: relative;
+    right: 30px;
+    top: -20px;
+    width: 100%;
+}
+
+.social-icons .team-social-icons li a {
+
+	background: #E5A521;
+	padding: 7px 11px 7px 10px;
+}	
+
+ul.social-icons li a i.fa {
+
+	color:  #FDF5EA;
+	
+}
+
+
 /*
 article {
 	max-height: 6rem;
