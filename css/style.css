@@ -450,6 +450,13 @@ p.team-copy {
     width: 100%;
 }
 
+.social-icons.team {
+	position: relative;
+    right: -44px;
+    top: -58px;
+    width: 100%;
+}
+
 .social-icons a {
 	line-height: 37px;
 }
@@ -469,6 +476,10 @@ ul.social-icons li a i.fa {
 
 .social-icons ul {
 	margin-bottom: -10px;
+}
+
+.social-icons.team ul {
+	margin-bottom: 0px;
 }
 
 .social-icons .team-social-icons li a:hover {
