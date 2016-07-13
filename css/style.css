@@ -445,7 +445,7 @@ p.team-copy {
 
 .social-icons {
 	position: relative;
-    right: 30px;
+    right: 15px;
     top: -20px;
     width: 100%;
 }
@@ -455,7 +455,6 @@ p.team-copy {
 }
 
 .social-icons .team-social-icons li a {
-
 	background: #E5A521;
 	display: block;
     width: 35px;
@@ -464,9 +463,12 @@ p.team-copy {
 }	
 
 ul.social-icons li a i.fa {
-
 	color:  #FDF5EA;
 	
+}
+
+.social-icons ul {
+	margin-bottom: -10px;
 }
 
 .social-icons .team-social-icons li a:hover {
