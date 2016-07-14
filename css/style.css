@@ -396,6 +396,7 @@ h6.align-left{
 	font-size: 1.5rem;
 	font-weight: 300;
 	margin-bottom: 3rem;
+	line-height: 2rem;
 }
 
 h4.align-left {
@@ -446,7 +447,7 @@ p.team-copy {
 
 .social-icons {
 	position: relative;
-    right: 15px;
+
     top: -20px;
     width: 100%;
 }
@@ -464,10 +465,13 @@ p.team-copy {
 	line-height: 37px;
 }
 
+ul.team-social-icons {
 
+	padding-left: 0;
+}
 
 div.social-icons.team ul.team-social-icons {
-	padding: 0 0 50px 0;
+	padding-bottom: 50px;
 }
 
 .social-icons .team-social-icons li a {
@@ -484,7 +488,7 @@ ul.social-icons li a i.fa {
 }
 
 .social-icons ul {
-	margin-bottom: -10px;
+	margin-bottom: -20px;
 }
 
 .social-icons.team ul {
