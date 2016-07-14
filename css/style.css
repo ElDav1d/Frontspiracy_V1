@@ -438,8 +438,9 @@ ul.team-social-icons li a i.fa {
 }
 
 p.team-copy {
-	margin-bottom: 5rem;
+	margin-bottom: 1.6rem;
 }
+
 
 
 
@@ -452,13 +453,21 @@ p.team-copy {
 
 .social-icons.team {
 	position: relative;
-    right: -44px;
-    top: -58px;
+    line-height: 0;
+    right: 0px;
+    top: 0px;
     width: 100%;
+    
 }
 
 .social-icons a {
 	line-height: 37px;
+}
+
+
+
+div.social-icons.team ul.team-social-icons {
+	padding: 0 0 50px 0;
 }
 
 .social-icons .team-social-icons li a {
